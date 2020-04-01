@@ -1,0 +1,45 @@
+cd Desktop
+cd  krati
+ls
+cd My_Django_Stuff
+ls
+cd django_level_four
+ls
+activate MyEnc
+activate MyEnv
+cd learning_templates
+ls
+python manage.py runserver
+ls
+cd ..
+ls
+cd django_level_five
+ls
+django-admin startproject learning_users
+ls
+cd learning_users
+django-admin startapp basic_app
+python manage.py migrate
+python manage.py makemigrations basic_app
+python manage.py migrate
+pip install bcrypt
+pip install django[argon2]
+pip install pillow
+python manage.py migrate
+python manage.py makemigrations basic_app
+python manage.py migrate
+python manage.py makemigrations basic_app
+python manage.py migrate
+python manage.py runserver
+python manage.py migrate
+python manage.py makemigrations basic_app
+python manage.py migrate
+python manage.py runserver
+python manage.py collectstatic
+python manage.py runserver
+python manage.py createsuperuser
+python manage.py runserver
+history
+doskey-history
+doskey/history
+doskey/history>>hiss.txt
